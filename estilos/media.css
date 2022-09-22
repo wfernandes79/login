@@ -19,6 +19,12 @@
         float: right;
         width: 60%;
     }
+    h1{
+        font-size: 1.7em;
+    }
+    p{
+        font-size: 1em;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -32,15 +38,21 @@
         height: 90%;
     }
     div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
 
     }
     div#formulario{
-        float: right;
+        float: left;
         width: 50%;
 
+    }
+    h1{
+        font-size: 2em;
+    }
+    p{
+        font-size: 1.2em;
     }
     
 }
