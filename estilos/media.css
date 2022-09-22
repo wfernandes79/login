@@ -6,6 +6,7 @@
     }
     section#login {
         width: 80%;
+        height: 90%;
 
     }
     div#imagem {
@@ -24,10 +25,11 @@
 
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        
     }
     section#login {
-
         width: 950px;
+        height: 90%;
     }
     div#imagem{
         float: left;
