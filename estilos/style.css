@@ -30,7 +30,7 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 255px;
-    height: 500px;
+    height: 515px;
     background-color: white;
     overflow: hidden;
     border-radius: 20px;
@@ -60,5 +60,52 @@ h1{
 
 }
 p{
+    font-size: 0.8em;
+}
+div.campo{
+    background-color: #5f2c82;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+div.campo > label{
+    display: none;
+}
+
+input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+input[type=submit]:hover{
+    background-color: #2f6866;
+}
+a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: white;
+    color: #2f6866;
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+    text-decoration: none;
+}
+a.botao:hover{
+    background-color: #5ccfcb;
+}
+a.botao > i{
     font-size: 0.8em;
 }
