@@ -6,7 +6,7 @@
     }
     section#login {
         width: 80%;
-        height: 90%;
+        height: 300px;
 
     }
     div#imagem {
@@ -23,7 +23,7 @@
         font-size: 1.7em;
     }
     p{
-        font-size: 1em;
+        font-size: .9em;
     }
     
 }
@@ -37,7 +37,7 @@
     }
     section#login {
         width: 950px;
-        height: 90%;
+        height: 340px;
     }
     div#imagem{
         float: right;
@@ -54,7 +54,7 @@
         font-size: 2em;
     }
     p{
-        font-size: 1.2em;
+        font-size: 1em;
     }
     
     
